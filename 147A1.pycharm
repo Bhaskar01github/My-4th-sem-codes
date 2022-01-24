@@ -1,0 +1,121 @@
+                                            #ASSIGNMENT1#
+                                                       #by Bhaskar Barman
+
+
+#(Q1)  EXPLORING LISTS
+
+#(b)
+x=(list(range(10)))        #list of  integers from 0 to 9
+print('x:',x)
+#(c)
+y=(list(range(3,13)))      #list of integers from 3 to 12
+print('y:',y)
+#(d)
+print(x[::-1])             # reverse order of x list
+#(e)
+print(list(range(1,10,2)))   #  list of odd entries in x
+print(list(range(2,10,2)))    # list of even entries in x
+#(f)
+print(x[3])       #4th item of x
+#str=list(range(3,13))
+print(y[0])      #1st item of y
+print('x[3]=y[0]')
+# Hence,it is proved that the 4th item o x and 1st item of y is same.It is 3
+#(g)
+print(10 in x)
+#Hence 10 is not there in the list x
+#(h)
+print(7 in y)
+#Hence 7 is there in the list y
+#(i)
+print(x+y)  #combined list of items of x an y
+#(j)
+x.reverse()
+P=x+y
+print(P)
+print(P.index(max(P)))    #gives the index position of maximum value in the list
+print(P.index(min(P)))    #gives the index position of minimum value in the list
+
+#[Q2] STRINGS ARE LISTS
+
+#(a)
+strng="The quick brown fox jumps over the lazy dog"
+print('x:',strng)
+#(b)
+result= strng.find('fox')
+print(result)    #'fox' word is there in the string .its index position is 16
+#(c)
+print(strng[::-1])  #reverce order of the sentence
+#(d)
+print(strng[2::3])     #every third character of the above strng of (a) no.
+#(e)
+print(strng[3::4])    #every fourth character in the above strng(including spaces)
+#(f)
+print(len(strng))     #no. of eharacters in the strng
+#(g)
+print(strng[::-2])   #every second character of the sentence starting from the last in reverse order
+#(h)
+y=x[:4]     #first four characters of x
+z=x[7:]     #last three characters of y
+print(y+z)
+#(i)
+print(y*10)
+
+#[Q3] NUMBERS
+
+#(a)
+x=1.2
+#(b)
+y=12
+#(c)
+z=24
+#(d)
+print(x/y,y/z,z/x)
+#Hence all o them are float
+#(e)
+print(3**7)
+#(f)
+print(2.0**3)
+#(g)
+print(y+z)
+print(str(y)+str(z))
+#Hence the result is not same for the above two commands
+
+#[Q4] MISCELLANEOUS
+
+#(a)
+print('Hello World')    #(b) #Hello World string printed
+#(c)
+a='Bhaskar'
+b='18'
+c= '21MS147'
+print(a)
+print(b)
+print(c)
+print('Hello!My name is '+a+'.I am '+b+' years old.My roll number is '+c)
+#(d)
+print(str(13)+str(85))
+#(e)
+print(int(13)+int(85))
+#(f)
+print("It's good to learn Python")
+#(g)
+print('''The man asked,"Where to mee you?" I said,"Well,use Google Meet!"''')
+#(h)
+m=12.3
+print(type(m))      #here the type of variable m is float
+#(i)
+Name='Bhaskar'
+print('My name is '+Name)
+#(j)
+name="Bhaskar"
+age="40"
+gender="Male"
+print("Good Morning "+name+"! You are a "+gender+" of "+age+" years.")
+
+                                              #END#
+
+
+
+
+
