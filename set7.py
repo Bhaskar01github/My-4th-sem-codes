@@ -8,11 +8,14 @@ m=np.array(listm)
 print(type(m[0]))
 
 
-rainfall=input("rainfall in each month: ").split(',')
-r=np.array(rainfall)
-temperature=input("Give temp.: ").split(',')
-t=np.array(temperature)
 
+rainfall=input("rainfall in each month: ").split(',')
+lrainfall=[int(i) for i in rainfall]
+r=np.array(lrainfall)
+temperature=input("Give temp.: ").split(',')
+ltemp=[int(i) for i in rainfall]             #for converting elements of list from str to int
+t=np.array(ltemp)
+plt.plot(m,r)
 
 
 
